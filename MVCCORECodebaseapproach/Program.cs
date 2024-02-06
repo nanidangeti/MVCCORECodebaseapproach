@@ -12,6 +12,7 @@ Options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectio
 var app = builder.Build();
 
 
+//Add to git
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
